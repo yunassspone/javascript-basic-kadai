@@ -1,6 +1,6 @@
 const calac = (num) =>{
   const returnNum = num ** 2;
-  console.log(returnNum);
+  return returnNum;
 }
 
-calac(10);
+console.log(calac(10));
